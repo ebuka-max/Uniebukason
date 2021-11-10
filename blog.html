@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY OF EBUKA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+
+    <!-------  blog page content ---------->
+
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="./images/cert.jpg">
+                <h2>Our Certificates & Online Programs For 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates numquam ipsam, tempore eum illo
+                    quidem architecto officia culpa quam a itaque amet! Similique nulla repellat cupiditate tenetur
+                    perferendis cum. Repellat.</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad culpa quasi inventore. Nulla consectetur
+                    omnis provident maiores enim numquam quaerat facere accusamus necessitatibus! Inventore odio velit
+                    harum eos blanditiis obcaecati quibusdam? Consequatur sequi natus illum vel animi beatae ducimus
+                    quidem, alias iusto, facere hic doloribus obcaecati voluptatibus veniam tempora odit neque? Quisquam
+                    maxime reprehenderit, impedit ducimus fugiat aliquid ab nisi vel officiis eaque aliquam optio facere
+                    quia quod sit dignissimos animi obcaecati, commodi nostrum error voluptatibus illum ratione,
+                    consequatur voluptate.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci labore laborum ab maxime. Ducimus,
+                    earum! Nostrum provident aperiam, ipsum quas culpa expedita qui non ducimus repellat aliquam nulla
+                    perferendis incidunt quaerat ullam quos illo optio nihil. Nesciunt, id laudantium. Suscipit debitis
+                    dolores illum doloribus deleniti.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur temporibus iusto iure aliquid
+                    numquam accusamus,
+                    optio amet, laudantium sed reiciendis omnis explicabo quod quo quaerat quasi dolore itaque culpa!
+                    Sequi velit harum
+                    exercitationem! Commodi eius minima quae vel recusandae eveniet?</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analystics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <!------- footer --------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, laborum dolorum consequuntur voluptates
+            non illum<br>expedita nulla harum dolor rem quidem velit suscipit. Cupiditate.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Ebuks Expeditions </p>
+    </section>
+
+
+
+
+
+
+
+    <!------ ----- Javascript for Toggle Menu ----- ------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu(params) {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
